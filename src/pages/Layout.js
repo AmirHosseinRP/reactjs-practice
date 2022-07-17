@@ -10,17 +10,19 @@ function Layout () {
             <nav>
                 <ul>
                     <li>
-                        <Link to="/" style={{color:"red"}}>Home</Link>
+                        <Link to="/" style={{color:"red"}}>useRef</Link>
                     </li>
                     <li>
-                        <Link to="/blogs" style={myStyle}>Blogs</Link>
+                        <Link to="/useState" style={myStyle}>useState</Link>
                     </li>
                     <li>
-                        <Link to="/contact" className={'linkText'}>Contact</Link>
+                        <Link to="/useEffect" className={'linkText'}>useEffect</Link>
+                    </li>
+                    <li>
+                        <Link to="/useContext">useContext</Link>
                     </li>
                 </ul>
             </nav>
-
             <Outlet />
         </>
     )
