@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import './layoutStyleSheet.css';
+import '../styles/layoutStyleSheet.css';
 function Layout () {
     const myStyle = {
         color:"white",

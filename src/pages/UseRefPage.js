@@ -1,4 +1,4 @@
-import styles from './homeStyleSheet.module.css';
+import styles from '../styles/homeStyleSheet.module.css';
 import {useState, useEffect, useRef} from "react";
 
 
