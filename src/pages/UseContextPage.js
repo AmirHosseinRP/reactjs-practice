@@ -1,6 +1,6 @@
 import {useContext,useState,createContext} from "react";
 
-const UserContext = createContext();
+const UserContext = createContext(undefined);
 const UseContextPage = () => {
     const [user, setUser] = useState("Jesse Hall");
 
@@ -48,5 +48,5 @@ function Component5() {
             <h2>{`Hello ${user} again!`}</h2>
         </>
     );
-};
+}
 export default UseContextPage;

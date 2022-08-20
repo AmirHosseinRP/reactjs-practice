@@ -6,6 +6,8 @@ import UseStatePage from "./pages/UseStatePage";
 import UseEffectPage from "./pages/UseEffectPage";
 import NoPage from "./pages/NoPage";
 import UseContextPage from "./pages/UseContextPage";
+import UseCallbackPage from "./pages/UseCallbackPage";
+import UseMemoPage from "./pages/UseMemoPage";
 
 export default function App() {
     return (
@@ -17,6 +19,8 @@ export default function App() {
                         <Route path="useState" element={<UseStatePage/>}/>
                         <Route path="useEffect" element={<UseEffectPage/>}/>
                         <Route path="useContext" element={<UseContextPage/>}/>
+                        <Route path={'useCallback'} element={<UseCallbackPage/>}/>
+                        <Route path={'useMemo'} element={<UseMemoPage/>}/>
                         <Route path="*" element={<NoPage/>}/>
                     </Route>
                 </Routes>
